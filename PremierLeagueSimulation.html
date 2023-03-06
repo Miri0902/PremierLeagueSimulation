@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module PremierLeagueSimulation</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">PremierLeagueSimulation</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmiros%5Cpycharmprojects%5Cpythonproject2%5Cpremierleaguesimulation.py">c:\users\miros\pycharmprojects\pythonproject2\premierleaguesimulation.py</a></td></tr></table>
+    <p><span class="code">English&nbsp;Premier&nbsp;League&nbsp;simulation&nbsp;game&nbsp;by&nbsp;Miroslava&nbsp;Ezel&nbsp;N1161732</span></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="random.html">random</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>DRAW_POINTS</strong> = 1<br>
+<strong>NUM_MATCHES</strong> = 38<br>
+<strong>WIN_POINTS</strong> = 3<br>
+<strong>away_score</strong> = 1<br>
+<strong>away_team</strong> = 'Chelsea: Stamford Bridge - London'<br>
+<strong>draws</strong> = {'Arsenal: The Emirates - London': 16, 'Aston Villa: Villa Park - Birmingham': 20, 'Bournemouth: Vitality Stadium - Bournemouth': 14, 'Brentford: Community Stadium - London': 10, 'Brighton &amp; Hove Albion: Falmer Stadium - Brighton': 17, 'Chelsea: Stamford Bridge - London': 13, 'Crystal Palace: Selhurst Park - London': 14, 'Everton: Goodison Park - Liverpool': 16, 'Fulham: Craven Cottage - London': 16, 'Leeds United: Elland Road - Leeds': 15, ...}<br>
+<strong>epl</strong> = [Arsenal, The Emirates , London
+, Aston Villa, Villa Park , Birmingham
+, Bournemouth, Vitality Stadium , Bournemouth
+, Brentford, Community Stadium , London
+, Brighton &amp; Hove Albion, Falmer Stadium , Brighton
+, Chelsea, Stamford Bridge , London
+, Crystal Palace, Selhurst Park , London
+, Everton, Goodison Park , Liverpool
+, Fulham, Craven Cottage , London
+, Leeds United, Elland Road , Leeds
+, Leicester City,  King Power Stadium , Leicester
+, Liverpool, Anfield , Liverpool
+, Manchester City, The Etihad , Manchester
+, Newcastle United, St James' Park , Newcastle
+, Nottingham Forest, The City Ground , Nottingham
+, Southampton, St Mary's , Southampton
+, Tottenham Hotspur, Tottenham Hotspur Stadium , London
+, West Ham,  London Stadium , London
+, Wolverhampton Wanderers, Molineux , Wolverhampton]<br>
+<strong>epl_game</strong> = 'y'<br>
+<strong>epl_table</strong> = 'y'<br>
+<strong>f</strong> = &lt;_io.TextIOWrapper name='epl.txt' mode='r' encoding='cp1252'&gt;<br>
+<strong>home_score</strong> = 4<br>
+<strong>home_team</strong> = 'Wolverhampton Wanderers: Molineux - Wolverhampton'<br>
+<strong>i</strong> = 2<br>
+<strong>losses</strong> = {'Arsenal: The Emirates - London': 31, 'Aston Villa: Villa Park - Birmingham': 28, 'Bournemouth: Vitality Stadium - Bournemouth': 29, 'Brentford: Community Stadium - London': 31, 'Brighton &amp; Hove Albion: Falmer Stadium - Brighton': 33, 'Chelsea: Stamford Bridge - London': 25, 'Crystal Palace: Selhurst Park - London': 30, 'Everton: Goodison Park - Liverpool': 33, 'Fulham: Craven Cottage - London': 31, 'Leeds United: Elland Road - Leeds': 28, ...}<br>
+<strong>m</strong> = Wolverhampton Wanderers,  Julen Lopetegui
+<br>
+<strong>managers</strong> = 'y'<br>
+<strong>mg</strong> = [Arsenal,  Mikel Arteta
+, Aston Villa,  Unai Emery
+, Bournemouth,  Gary O'Neil
+, Brentford,  Thomas Frank
+, Brighton and Hove Albion,  Roberto De Zerbi
+, Chelsea,  Graham Potter
+, Crystal Palace,  Patrick Vieira
+, Everton,  Sean Dyche
+, Fulham,  Marco Silva
+, Leeds United,  Michael Skubala
+, Leicester City,  Brendan Rodgers
+, Liverpool,  Jurgen Klopp
+, Manchester City,  Pep Guardiola
+, Manchester United,  Eddie Howe
+, Nottingham Forest,  Steve Cooper
+, Southampton,  Nathan Jones
+, Tottenham Hotspur,  Antonio Conte
+, West Ham United,  David Moyes
+, Wolverhampton Wanderers,  Julen Lopetegui
+]<br>
+<strong>player</strong> = 'William Saliba: Arsenal'<br>
+<strong>players</strong> = 'y'<br>
+<strong>points</strong> = {'Arsenal: The Emirates - London': 100, 'Aston Villa: Villa Park - Birmingham': 92, 'Bournemouth: Vitality Stadium - Bournemouth': 107, 'Brentford: Community Stadium - London': 112, 'Brighton &amp; Hove Albion: Falmer Stadium - Brighton': 98, 'Chelsea: Stamford Bridge - London': 70, 'Crystal Palace: Selhurst Park - London': 98, 'Everton: Goodison Park - Liverpool': 115, 'Fulham: Craven Cottage - London': 121, 'Leeds United: Elland Road - Leeds': 123, ...}<br>
+<strong>relegate</strong> = 'y'<br>
+<strong>relegate_team_name</strong> = 'Chelsea'<br>
+<strong>sorted_teams</strong> = ['Manchester City: The Etihad - Manchester', 'Nottingham Forest: The City Ground - Nottingham', 'Leeds United: Elland Road - Leeds', 'Fulham: Craven Cottage - London', "Newcastle United: St James' Park - Newcastle", 'Everton: Goodison Park - Liverpool', 'Brentford: Community Stadium - London', 'Liverpool: Anfield - Liverpool', 'Leicester City:  King Power Stadium - Leicester', 'Bournemouth: Vitality Stadium - Bournemouth', 'Wolverhampton Wanderers: Molineux - Wolverhampton', 'Tottenham Hotspur: Tottenham Hotspur Stadium - London', "Southampton: St Mary's - Southampton", 'Arsenal: The Emirates - London', 'Crystal Palace: Selhurst Park - London', 'Brighton &amp; Hove Albion: Falmer Stadium - Brighton', 'Aston Villa: Villa Park - Birmingham', 'West Ham:  London Stadium - London']<br>
+<strong>team</strong> = 'Chelsea: Stamford Bridge - London'<br>
+<strong>team_name</strong> = 'Chelsea'<br>
+<strong>teams</strong> = ['Arsenal: The Emirates - London', 'Aston Villa: Villa Park - Birmingham', 'Bournemouth: Vitality Stadium - Bournemouth', 'Brentford: Community Stadium - London', 'Brighton &amp; Hove Albion: Falmer Stadium - Brighton', 'Chelsea: Stamford Bridge - London', 'Crystal Palace: Selhurst Park - London', 'Everton: Goodison Park - Liverpool', 'Fulham: Craven Cottage - London', 'Leeds United: Elland Road - Leeds', 'Leicester City:  King Power Stadium - Leicester', 'Liverpool: Anfield - Liverpool', 'Manchester City: The Etihad - Manchester', "Newcastle United: St James' Park - Newcastle", 'Nottingham Forest: The City Ground - Nottingham', "Southampton: St Mary's - Southampton", 'Tottenham Hotspur: Tottenham Hotspur Stadium - London', 'West Ham:  London Stadium - London', 'Wolverhampton Wanderers: Molineux - Wolverhampton']<br>
+<strong>top_players</strong> = ['Erling Haalad: Man City', 'Kevin De Bruyne: Man City', 'William Saliba: Arsenal']<br>
+<strong>top_three_data</strong> = ['Erling Haalad: Man City<span class="repr">\n</span>', 'Kevin De Bruyne: Man City<span class="repr">\n</span>', 'William Saliba: Arsenal']<br>
+<strong>winner_name</strong> = 'Manchester City'<br>
+<strong>wins</strong> = {'Arsenal: The Emirates - London': 28, 'Aston Villa: Villa Park - Birmingham': 24, 'Bournemouth: Vitality Stadium - Bournemouth': 31, 'Brentford: Community Stadium - London': 34, 'Brighton &amp; Hove Albion: Falmer Stadium - Brighton': 27, 'Chelsea: Stamford Bridge - London': 19, 'Crystal Palace: Selhurst Park - London': 28, 'Everton: Goodison Park - Liverpool': 33, 'Fulham: Craven Cottage - London': 35, 'Leeds United: Elland Road - Leeds': 36, ...}</td></tr></table>
+</body></html>
